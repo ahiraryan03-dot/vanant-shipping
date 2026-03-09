@@ -1,0 +1,69 @@
+Create a modern and professional website for a logistics and freight forwarding company.
+
+Company Name: Vanant Shipping
+
+Industry: International Freight Forwarding and Customs Clearance
+
+Important: The website should feel similar in professionalism and layout inspiration to serenesea.in, but it must NOT copy the design, layout, or content. Create a unique design with a different structure, colors, and visuals so it looks like a completely different brand.
+
+Design Style:
+Clean, professional logistics theme with port, cargo ship, containers, and global trade visuals. Use modern typography and smooth sections. Colors can be different from serenesea.in but should look trustworthy and corporate (for example navy blue, dark teal, grey, or white).
+
+Target Audience:
+Importers, exporters, freight forwarders, and logistics partners globally.
+
+Pages to include (only 5 pages):
+
+1. Home
+   Hero section with strong headline such as:
+   "Reliable Global Freight Forwarding & Customs Clearance"
+
+Short introduction about Vanant Shipping.
+Highlight key services with icons.
+Add a "Request a Quote" button.
+Include sections like:
+
+* Why Choose Vanant Shipping
+* Global Logistics Solutions
+* Quick contact CTA.
+
+2. About Us
+   Introduce Vanant Shipping and its expertise in freight forwarding.
+   Include company values such as reliability, transparency, and efficiency.
+   Mention experience in handling international shipments and customs clearance.
+
+3. Services
+   Explain main services clearly:
+
+* Ocean Freight
+* Air Freight
+* Customs Clearance
+* Import & Export Handling
+* Door-to-Door Logistics
+
+Each service should have a short professional description.
+
+4. Global Network
+   Explain that Vanant Shipping works with international partners and agents worldwide.
+   Highlight strong connections with freight forwarders and logistics companies.
+   Add a visual world map style section.
+
+5. Contact Us
+   Professional contact page including:
+   Contact form
+   Email
+   Phone
+   Office address
+   Map integration
+   Business hours.
+
+Design Requirements:
+
+* Mobile responsive
+* Fast loading
+* Professional corporate design
+* High quality shipping and logistics images
+* Smooth scrolling sections
+* SEO friendly structure
+* Clear navigation menu at the top
+* Footer with company info and quick links
