@@ -49,7 +49,7 @@ export default function Navbar() {
                 <Phone className="h-4 w-4" />
                 <span>+91 99799 23477</span>
               </div>
-              <Button asChild className="bg-[#072752] hover:bg-secondary/90 whitespace-nowrap">
+              <Button asChild className="bg-[#072752] hover:bg-[#072752]/90 whitespace-nowrap text-white">
                 <Link href="/contact">Request a Quote</Link>
               </Button>
             </div>
@@ -87,7 +87,7 @@ export default function Navbar() {
                 <Phone className="h-4 w-4" />
                 <span>+91 99799 23477</span>
               </div>
-              <Button asChild className="w-full bg-secondary hover:bg-secondary/90">
+              <Button asChild className="w-full bg-[#072752] hover:bg-[#072752]/90 text-white">
                 <Link href="/contact">Request a Quote</Link>
               </Button>
             </div>

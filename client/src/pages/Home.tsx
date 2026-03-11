@@ -66,13 +66,13 @@ export default function Home() {
               Global Logistics Partner
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold tracking-tight text-white leading-tight">
-              Reliable Global <span className="text-[#072752]">Freight Forwarding</span> & Customs Clearance
+              Reliable Global <span className="text-white">Freight Forwarding</span> & Customs Clearance
             </h1>
             <p className="text-lg md:text-xl text-primary-foreground/90 max-w-2xl leading-relaxed">
               Seamlessly connecting businesses across borders with secure, efficient, and transparent supply chain solutions.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <Button size="lg" className="bg-[#072752] hover:bg-secondary/90 text-white text-base h-14 px-8" asChild>
+              <Button size="lg" className="bg-[#072752] hover:bg-[#072752]/90 text-white text-base h-14 px-8" asChild>
                 <Link href="/contact">Request a Quote</Link>
               </Button>
               <Button size="lg" variant="outline" className="bg-white/10 text-white border-white/20 hover:bg-white/20 h-14 px-8 backdrop-blur-sm" asChild>
@@ -161,7 +161,7 @@ export default function Home() {
           <p className="text-xl text-primary-foreground/80 max-w-2xl mx-auto mb-10">
             Let our experts handle your logistics while you focus on growing your business. Get a customized quote today.
           </p>
-          <Button size="lg" className="bg-secondary hover:bg-white hover:text-primary transition-colors text-white text-lg h-14 px-10 rounded-full" asChild>
+          <Button size="lg" className="bg-white hover:bg-white/90 text-[#072752] transition-colors text-lg h-14 px-10 rounded-full" asChild>
             <Link href="/contact" className="flex items-center gap-2">
               Contact Our Team <ArrowRight className="h-5 w-5" />
             </Link>
