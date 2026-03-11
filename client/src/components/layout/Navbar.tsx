@@ -20,21 +20,21 @@ export default function Navbar() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex h-20 items-center justify-between">
           <Link href="/">
-            <a className="flex items-center gap-2 group" data-testid="link-home">
+            <a className="flex items-center gap-2 group shrink-0 mr-4" data-testid="link-home">
               <div className="bg-primary p-2 rounded-lg group-hover:bg-secondary transition-colors">
                 <Ship className="h-6 w-6 text-primary-foreground" />
               </div>
-              <span className="text-xl font-bold tracking-tight text-primary">Vanant Shipping</span>
+              <span className="text-xl font-bold tracking-tight text-primary whitespace-nowrap">Vanant Shipping</span>
             </a>
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex md:items-center md:gap-8">
+          <div className="hidden lg:flex lg:items-center lg:gap-8 lg:flex-1 lg:justify-end">
             <div className="flex items-center gap-6">
               {links.map((link) => (
                 <Link key={link.href} href={link.href}>
                   <a
-                    className={`text-sm font-medium transition-colors hover:text-secondary ${
+                    className={`text-sm font-medium transition-colors hover:text-secondary whitespace-nowrap ${
                       location === link.href ? "text-primary font-semibold" : "text-muted-foreground"
                     }`}
                     data-testid={`link-nav-${link.label.toLowerCase().replace(' ', '-')}`}
@@ -44,12 +44,12 @@ export default function Navbar() {
                 </Link>
               ))}
             </div>
-            <div className="flex items-center gap-4 ml-4 border-l pl-6">
-              <div className="flex items-center gap-2 text-sm font-medium text-muted-foreground">
+            <div className="flex items-center gap-4 ml-2 border-l pl-4 shrink-0">
+              <div className="flex items-center gap-2 text-sm font-medium text-muted-foreground whitespace-nowrap">
                 <Phone className="h-4 w-4" />
                 <span>+1 (555) 123-4567</span>
               </div>
-              <Button asChild className="bg-secondary hover:bg-secondary/90">
+              <Button asChild className="bg-secondary hover:bg-secondary/90 whitespace-nowrap">
                 <Link href="/contact">Request a Quote</Link>
               </Button>
             </div>
@@ -57,7 +57,7 @@ export default function Navbar() {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden p-2 text-muted-foreground hover:text-foreground"
+            className="lg:hidden p-2 text-muted-foreground hover:text-foreground ml-auto"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             data-testid="button-mobile-menu"
           >
