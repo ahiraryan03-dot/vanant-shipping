@@ -2,6 +2,8 @@ import { Globe, Users, MapPin, Navigation } from "lucide-react";
 import PageWrapper from "@/components/layout/PageWrapper";
 import networkMapImage from "@/assets/images/world-map-accurate.png";
 
+import ChatGPT_Image_Mar_12__2026__12_15_39_AM from "@assets/ChatGPT Image Mar 12, 2026, 12_15_39 AM.png";
+
 export default function Network() {
   const regions = [
     {
@@ -47,7 +49,7 @@ export default function Network() {
           <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-border mb-20 bg-muted/20">
             <div className="absolute inset-0 bg-primary/5 mix-blend-multiply pointer-events-none z-10"></div>
             <img 
-              src={networkMapImage} 
+              src={ChatGPT_Image_Mar_12__2026__12_15_39_AM} 
               alt="Global logistics network map" 
               className="w-full h-auto max-h-[600px] object-cover"
             />
