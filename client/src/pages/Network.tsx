@@ -58,7 +58,7 @@ export default function Network() {
             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-primary/90 to-transparent p-8 md:p-12 z-20">
               <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-white">
                 <div>
-                  <div className="text-3xl md:text-4xl font-bold mb-1 text-[#f6f5f4]">150+</div>
+                  <div className="text-3xl md:text-4xl font-bold mb-1 text-[#ffffff]">150+</div>
                   <div className="text-sm md:text-base font-medium text-white/80">Countries Served</div>
                 </div>
                 <div>
