@@ -1,6 +1,6 @@
 import { Globe, Users, MapPin, Navigation } from "lucide-react";
 import PageWrapper from "@/components/layout/PageWrapper";
-import networkMapImage from "@/assets/images/world-map-simple.jpg";
+import networkMapImage from "@/assets/images/world-map-routes.png";
 
 export default function Network() {
   const regions = [
