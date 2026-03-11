@@ -79,15 +79,15 @@ export default function Footer() {
             <h3 className="text-lg font-semibold text-white mb-4">Contact Info</h3>
             <ul className="space-y-4 text-sm text-primary-foreground/70">
               <li className="flex items-start gap-3">
-                <MapPin className="h-5 w-5 shrink-0 text-secondary" />
+                <MapPin className="h-5 w-5 shrink-0 text-white" />
                 <span>123 Logistics Way, Suite 400<br />Global Trade Center, NY 10001</span>
               </li>
               <li className="flex items-center gap-3">
-                <Phone className="h-5 w-5 shrink-0 text-secondary" />
+                <Phone className="h-5 w-5 shrink-0 text-white" />
                 <span>+91 99799 23477</span>
               </li>
               <li className="flex items-center gap-3">
-                <Mail className="h-5 w-5 shrink-0 text-secondary" />
+                <Mail className="h-5 w-5 shrink-0 text-white" />
                 <span>info@vanantshipping.com</span>
               </li>
             </ul>
