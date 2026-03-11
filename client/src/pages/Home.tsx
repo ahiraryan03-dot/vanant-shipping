@@ -52,7 +52,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative h-[80vh] min-h-[600px] flex items-center">
         <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/70 to-transparent z-10" />
+          <div className="absolute inset-0 bg-gradient-to-r from-primary/40 via-primary/20 to-transparent z-10" />
           <img 
             src={heroImage} 
             alt="Cargo ship carrying containers" 
@@ -146,7 +146,7 @@ export default function Home() {
                   alt="Logistics professional at work" 
                   className="w-full h-auto object-cover hover:scale-105 transition-transform duration-700 aspect-[4/3]"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent flex flex-col justify-end p-8">
+                <div className="absolute inset-0 bg-gradient-to-t from-primary/50 to-transparent flex flex-col justify-end p-8">
                   <div className="text-white text-3xl font-bold mb-2">150+</div>
                   <div className="text-white/90 text-lg">Countries Served Worldwide</div>
                 </div>
