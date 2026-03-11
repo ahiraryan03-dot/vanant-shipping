@@ -1,0 +1,395 @@
+
+> rest-express@1.0.0 dev:client
+> vite dev --port 5000
+
+[1G[0K
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J
+  [32m[1mVITE[22m v7.3.1[39m  [2mready in [0m[1m362[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5000[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://172.31.89.130:[1m5000[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[replit-cartographer] Error processing /home/runner/workspace/client/src/components/layout/Navbar.tsx: SyntaxError: Expected corresponding JSX closing tag for <span>. (51:14)
+    at constructor [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:365:19[90m)[39m
+    at TypeScriptParserMixin.raise [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:6599:19[90m)[39m
+    at TypeScriptParserMixin.jsxParseElementAt [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:4727:16[90m)[39m
+    at TypeScriptParserMixin.jsxParseElementAt [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:4698:32[90m)[39m
+    at TypeScriptParserMixin.jsxParseElementAt [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:4698:32[90m)[39m
+    at TypeScriptParserMixin.jsxParseElementAt [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:4698:32[90m)[39m
+    at TypeScriptParserMixin.jsxParseElementAt [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:4698:32[90m)[39m
+    at TypeScriptParserMixin.jsxParseElementAt [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:4698:32[90m)[39m
+    at TypeScriptParserMixin.jsxParseElementAt [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:4698:32[90m)[39m
+    at TypeScriptParserMixin.jsxParseElement [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:4749:17[90m)[39m
+    at TypeScriptParserMixin.parseExprAtom [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:4759:19[90m)[39m
+    at TypeScriptParserMixin.parseExprSubscripts [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:11071:23[90m)[39m
+    at TypeScriptParserMixin.parseUpdate [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:11056:21[90m)[39m
+    at TypeScriptParserMixin.parseMaybeUnary [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:11036:23[90m)[39m
+    at TypeScriptParserMixin.parseMaybeUnary [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:9827:18[90m)[39m
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:10889:61[90m)[39m
+    at TypeScriptParserMixin.parseExprOps [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:10894:23[90m)[39m
+    at TypeScriptParserMixin.parseMaybeConditional [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:10871:23[90m)[39m
+    at TypeScriptParserMixin.parseMaybeAssign [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:10821:21[90m)[39m
+    at [90m/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:9765:39
+    at TypeScriptParserMixin.tryParse [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:6907:20[90m)[39m
+    at TypeScriptParserMixin.parseMaybeAssign [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:9765:18[90m)[39m
+    at [90m/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:10790:39
+    at TypeScriptParserMixin.allowInAnd [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:12416:12[90m)[39m
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:10790:17[90m)[39m
+    at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:12483:17[90m)[39m
+    at TypeScriptParserMixin.parseParenAndDistinguishExpression [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:11665:28[90m)[39m
+    at TypeScriptParserMixin.parseExprAtom [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:11321:23[90m)[39m
+    at TypeScriptParserMixin.parseExprAtom [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:4764:20[90m)[39m
+    at TypeScriptParserMixin.parseExprSubscripts [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:11071:23[90m)[39m
+    at TypeScriptParserMixin.parseUpdate [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:11056:21[90m)[39m
+    at TypeScriptParserMixin.parseMaybeUnary [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:11036:23[90m)[39m
+    at TypeScriptParserMixin.parseMaybeUnary [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:9827:18[90m)[39m
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:10889:61[90m)[39m
+    at TypeScriptParserMixin.parseExprOps [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:10894:23[90m)[39m
+    at TypeScriptParserMixin.parseMaybeConditional [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:10871:23[90m)[39m
+    at TypeScriptParserMixin.parseMaybeAssign [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:10821:21[90m)[39m
+    at TypeScriptParserMixin.parseMaybeAssign [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:9776:20[90m)[39m
+    at TypeScriptParserMixin.parseExpressionBase [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:10774:23[90m)[39m
+    at [90m/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:10770:39
+    at TypeScriptParserMixin.allowInAnd [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:12411:16[90m)[39m
+    at TypeScriptParserMixin.parseExpression [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:10770:17[90m)[39m
+    at TypeScriptParserMixin.parseReturnStatement [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:13132:28[90m)[39m
+    at TypeScriptParserMixin.parseStatementContent [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:12788:21[90m)[39m
+    at TypeScriptParserMixin.parseStatementContent [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:9508:18[90m)[39m
+    at TypeScriptParserMixin.parseStatementLike [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:12757:17[90m)[39m
+    at TypeScriptParserMixin.parseStatementListItem [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:12737:17[90m)[39m
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:13306:61[90m)[39m
+    at TypeScriptParserMixin.parseBlockBody [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:13299:10[90m)[39m
+    at TypeScriptParserMixin.parseBlock [90m(/home/runner/workspace/[39mnode_modules/[4m@babel/parser[24m/lib/index.js:13287:10[90m)[39m {
+  code: [32m'BABEL_PARSER_SYNTAX_ERROR'[39m,
+  reasonCode: [32m'MissingClosingTagElement'[39m,
+  loc: Position { line: [33m51[39m, column: [33m14[39m, index: [33m2277[39m },
+  pos: [33m2277[39m,
+  syntaxPlugin: [32m'jsx'[39m
+}
+[2m6:50:04 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: /home/runner/workspace/client/src/components/layout/Navbar.tsx: Expected corresponding JSX closing tag for <span>. (51:14)
+
+[0m [90m 49 |[39m                 [33m<[39m[33mPhone[39m className[33m=[39m[32m"h-4 w-4"[39m [33m/[39m[33m>[39m
+ [90m 50 |[39m                 [33m<[39m[33mspan[39m[33m>[39m[33m+[39m[35m91[39m [33m/[39mspan[33m>[39m
+[31m[1m>[22m[39m[90m 51 |[39m               [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m
+ [90m    |[39m               [31m[1m^[22m[39m
+ [90m 52 |[39m               [33m<[39m[33mButton[39m asChild className[33m=[39m[32m"bg-[#072752] hover:bg-secondary/90 whitespace-nowrap"[39m[33m>[39m
+ [90m 53 |[39m                 [33m<[39m[33mLink[39m href[33m=[39m[32m"/contact"[39m[33m>[39m[33mRequest[39m a [33mQuote[39m[33m<[39m[33m/[39m[33mLink[39m[33m>[39m
+ [90m 54 |[39m               [33m<[39m[33m/[39m[33mButton[39m[33m>[39m[0m
+  Plugin: [35mvite:react-babel[39m
+  File: [36m/home/runner/workspace/client/src/components/layout/Navbar.tsx[39m:51:14
+[33m  49 |                  <Phone className="h-4 w-4" />
+  50 |                  <span>+91 /span>
+  51 |                </div>
+     |                ^
+  52 |                <Button asChild className="bg-[#072752] hover:bg-secondary/90 whitespace-nowrap">
+  53 |                  <Link href="/contact">Request a Quote</Link>[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m6:50:05 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m6:50:08 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/layout/Navbar.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m6:50:15 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/layout/Navbar.tsx[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m6:50:18 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/layout/Navbar.tsx[22m [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m6:50:26 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/layout/Navbar.tsx[22m [33m(x4)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m6:50:29 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/layout/Navbar.tsx[22m [33m(x5)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m6:50:32 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/layout/Navbar.tsx[22m [33m(x6)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m6:50:55 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/layout/Navbar.tsx[22m [33m(x7)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m6:50:59 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/layout/Navbar.tsx[22m [33m(x8)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m6:51:00 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/layout/Navbar.tsx[22m [33m(x9)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m6:52:26 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Home.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m6:53:09 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Home.tsx, /src/index.css[22m [33m(x2)[39m
