@@ -72,7 +72,7 @@ export default function Home() {
               Seamlessly connecting businesses across borders with secure, efficient, and transparent supply chain solutions.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <Button size="lg" className="bg-secondary hover:bg-secondary/90 text-white text-base h-14 px-8" asChild>
+              <Button size="lg" className="bg-[#072752] hover:bg-secondary/90 text-white text-base h-14 px-8" asChild>
                 <Link href="/contact">Request a Quote</Link>
               </Button>
               <Button size="lg" variant="outline" className="bg-white/10 text-white border-white/20 hover:bg-white/20 h-14 px-8 backdrop-blur-sm" asChild>
