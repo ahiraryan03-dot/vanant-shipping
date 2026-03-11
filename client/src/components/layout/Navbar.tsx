@@ -47,9 +47,9 @@ export default function Navbar() {
             <div className="flex items-center gap-4 ml-2 border-l pl-4 shrink-0">
               <div className="flex items-center gap-2 text-sm font-medium text-muted-foreground whitespace-nowrap">
                 <Phone className="h-4 w-4" />
-                <span>+1 (555) 123-4567</span>
+                <span>+91 99799 23477</span>
               </div>
-              <Button asChild className="bg-secondary hover:bg-secondary/90 whitespace-nowrap">
+              <Button asChild className="bg-[#072752] hover:bg-secondary/90 whitespace-nowrap">
                 <Link href="/contact">Request a Quote</Link>
               </Button>
             </div>
