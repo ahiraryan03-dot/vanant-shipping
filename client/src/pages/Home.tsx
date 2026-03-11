@@ -3,7 +3,7 @@ import { ArrowRight, Anchor, Plane, ShieldCheck, Truck, Globe, Award, Clock } fr
 import { Button } from "@/components/ui/button";
 import PageWrapper from "@/components/layout/PageWrapper";
 import heroImage from "@/assets/images/hero-cargo.jpg";
-import networkImage from "@/assets/images/network-map.jpg";
+import whyUsImage from "@/assets/images/home-why-us.jpg";
 
 export default function Home() {
   const services = [
@@ -142,9 +142,9 @@ export default function Home() {
             <div className="lg:w-1/2 w-full">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <img 
-                  src={networkImage} 
-                  alt="Global network map" 
-                  className="w-full h-auto object-cover hover:scale-105 transition-transform duration-700"
+                  src={whyUsImage} 
+                  alt="Logistics professional at work" 
+                  className="w-full h-auto object-cover hover:scale-105 transition-transform duration-700 aspect-[4/3]"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent flex flex-col justify-end p-8">
                   <div className="text-white text-3xl font-bold mb-2">150+</div>
