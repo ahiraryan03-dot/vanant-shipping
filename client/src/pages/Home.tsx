@@ -66,7 +66,7 @@ export default function Home() {
               Global Logistics Partner
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold tracking-tight text-white leading-tight">
-              Reliable Global <span className="text-secondary">Freight Forwarding</span> & Customs Clearance
+              Reliable Global <span className="text-[#072752]">Freight Forwarding</span> & Customs Clearance
             </h1>
             <p className="text-lg md:text-xl text-primary-foreground/90 max-w-2xl leading-relaxed">
               Seamlessly connecting businesses across borders with secure, efficient, and transparent supply chain solutions.
@@ -82,7 +82,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* Services Overview */}
       <section className="py-20 md:py-32 bg-muted/50">
         <div className="container mx-auto px-4 md:px-6">
@@ -111,7 +110,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* Why Choose Us */}
       <section className="py-20 md:py-32">
         <div className="container mx-auto px-4 md:px-6">
@@ -155,7 +153,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* CTA Section */}
       <section className="py-24 relative overflow-hidden bg-primary">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]"></div>
