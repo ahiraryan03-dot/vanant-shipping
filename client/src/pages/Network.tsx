@@ -1,8 +1,6 @@
 import { Globe, Users, MapPin, Navigation } from "lucide-react";
 import PageWrapper from "@/components/layout/PageWrapper";
-import networkMapImage from "@/assets/images/network-map.jpg";
-
-import WhatsApp_Image_2026_03_09_at_12_06_24_PM from "@assets/WhatsApp Image 2026-03-09 at 12.06.24 PM.jpeg";
+import networkMapImage from "@/assets/images/world-map-simple.jpg";
 
 export default function Network() {
   const regions = [
@@ -49,7 +47,7 @@ export default function Network() {
           <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-border mb-20 bg-muted/20">
             <div className="absolute inset-0 bg-primary/5 mix-blend-multiply pointer-events-none z-10"></div>
             <img 
-              src={WhatsApp_Image_2026_03_09_at_12_06_24_PM} 
+              src={networkMapImage} 
               alt="Global logistics network map" 
               className="w-full h-auto max-h-[600px] object-cover"
             />
