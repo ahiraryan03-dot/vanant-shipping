@@ -55,14 +55,14 @@ export default function Network() {
             />
             
             {/* Overlay stats */}
-            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-primary/90 to-transparent p-8 md:p-12 z-20">
+            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-primary/70 to-transparent p-8 md:p-12 z-20">
               <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-white">
                 <div>
-                  <div className="text-3xl md:text-4xl font-bold mb-1 text-[#ffffff]">150+</div>
+                  <div className="text-3xl md:text-4xl font-bold mb-1 text-[#ffffff]">110+</div>
                   <div className="text-sm md:text-base font-medium text-white/80">Countries Served</div>
                 </div>
                 <div>
-                  <div className="text-3xl md:text-4xl font-bold mb-1 text-white">400+</div>
+                  <div className="text-3xl md:text-4xl font-bold mb-1 text-white">210+</div>
                   <div className="text-sm md:text-base font-medium text-white/80">Partner Agents</div>
                 </div>
                 <div>
@@ -94,7 +94,7 @@ export default function Network() {
       {/* Strategic Partners Callout */}
       <section className="py-20 bg-primary text-white text-center">
         <div className="container mx-auto px-4">
-          <Users className="h-16 w-16 mx-auto mb-6 text-secondary" />
+          <Users className="h-16 w-16 mx-auto mb-6 text-white" />
           <h2 className="text-3xl font-bold mb-4">Strategic Partnerships</h2>
           <p className="text-lg text-primary-foreground/80 max-w-2xl mx-auto">
             Our strong connections with major shipping lines, airlines, and local ground transport operators guarantee competitive rates and secured capacity for your shipments, regardless of market volatility.

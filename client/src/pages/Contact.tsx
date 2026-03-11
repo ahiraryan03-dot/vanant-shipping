@@ -67,8 +67,8 @@ export default function Contact() {
                   <div>
                     <h3 className="text-lg font-semibold text-primary mb-1">Phone</h3>
                     <p className="text-muted-foreground">
-                      Main: +1 (555) 123-4567<br />
-                      Support: +1 (555) 987-6543
+                      Main: +91 99799 23477<br />
+                      Support: +91 75748 28065
                     </p>
                   </div>
                 </div>
@@ -81,7 +81,7 @@ export default function Contact() {
                     <h3 className="text-lg font-semibold text-primary mb-1">Email</h3>
                     <p className="text-muted-foreground">
                       info@vanantshipping.com<br />
-                      quotes@vanantshipping.com
+                      cs@vanantshipping.com
                     </p>
                   </div>
                 </div>
@@ -110,22 +110,22 @@ export default function Contact() {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="space-y-2">
                       <Label htmlFor="firstName">First Name</Label>
-                      <Input id="firstName" placeholder="John" required />
+                      <Input id="firstName" placeholder="First Name" required />
                     </div>
                     <div className="space-y-2">
                       <Label htmlFor="lastName">Last Name</Label>
-                      <Input id="lastName" placeholder="Doe" required />
+                      <Input id="lastName" placeholder="Last Name" required />
                     </div>
                   </div>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="space-y-2">
                       <Label htmlFor="email">Email Address</Label>
-                      <Input id="email" type="email" placeholder="john@company.com" required />
+                      <Input id="email" type="email" placeholder="xyz@company.com" required />
                     </div>
                     <div className="space-y-2">
                       <Label htmlFor="phone">Phone Number</Label>
-                      <Input id="phone" type="tel" placeholder="+1 (555) 000-0000" />
+                      <Input id="phone" type="tel" placeholder="+91 1234567890" />
                     </div>
                   </div>
 
@@ -149,7 +149,7 @@ export default function Contact() {
                     <Label htmlFor="message">Message / Shipment Details</Label>
                     <Textarea 
                       id="message" 
-                      placeholder="Please provide details about your shipment (origin, destination, weight, dimensions, etc.)..." 
+                      placeholder="Please provide details about your shipment (origin, destination, weight, dimensions, etc.).." 
                       className="min-h-[150px] resize-y"
                       required
                     />
@@ -176,8 +176,8 @@ export default function Contact() {
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="bg-white p-6 rounded-xl shadow-lg text-center max-w-sm border border-border">
             <MapPin className="h-10 w-10 text-primary mx-auto mb-3" />
-            <h3 className="font-bold text-lg mb-1">Global Trade Center</h3>
-            <p className="text-muted-foreground text-sm">Find us at our headquarters in New York.</p>
+            <h3 className="font-bold text-lg mb-1">Vanant Shipping Office</h3>
+            <p className="text-muted-foreground text-sm">Find our team supporting international cargo movements and logistics solutions.</p>
           </div>
         </div>
       </section>
