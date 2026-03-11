@@ -62,15 +62,15 @@ export default function Network() {
                   <div className="text-sm md:text-base font-medium text-white/80">Countries Served</div>
                 </div>
                 <div>
-                  <div className="text-3xl md:text-4xl font-bold mb-1 text-[#2261bf]">400+</div>
+                  <div className="text-3xl md:text-4xl font-bold mb-1 text-white">400+</div>
                   <div className="text-sm md:text-base font-medium text-white/80">Partner Agents</div>
                 </div>
                 <div>
-                  <div className="text-3xl md:text-4xl font-bold text-secondary mb-1">50+</div>
+                  <div className="text-3xl md:text-4xl font-bold text-white mb-1">50+</div>
                   <div className="text-sm md:text-base font-medium text-white/80">Major Ports</div>
                 </div>
                 <div>
-                  <div className="text-3xl md:text-4xl font-bold text-secondary mb-1">24/7</div>
+                  <div className="text-3xl md:text-4xl font-bold text-white mb-1">24/7</div>
                   <div className="text-sm md:text-base font-medium text-white/80">Global Operations</div>
                 </div>
               </div>
