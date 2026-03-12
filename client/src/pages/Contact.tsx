@@ -53,9 +53,9 @@ export default function Contact() {
                   <div>
                     <h3 className="text-lg font-semibold text-primary mb-1">Head Office</h3>
                     <p className="text-muted-foreground">
-                      123 Logistics Way, Suite 400<br />
-                      Global Trade Center, NY 10001<br />
-                      United States
+                      Plot No. 422, Ward 5/A, Police Station Road,<br />
+                       Adipur, Gandhidham, Gujarat 370205,<br />
+                       India
                     </p>
                   </div>
                 </div>
@@ -68,7 +68,7 @@ export default function Contact() {
                     <h3 className="text-lg font-semibold text-primary mb-1">Phone</h3>
                     <p className="text-muted-foreground">
                       Main: +91 99799 23477<br />
-                      Support: +91 75748 28065
+                      Support: +91 75748 28064
                     </p>
                   </div>
                 </div>
@@ -93,8 +93,8 @@ export default function Contact() {
                   <div>
                     <h3 className="text-lg font-semibold text-primary mb-1">Business Hours</h3>
                     <p className="text-muted-foreground">
-                      Monday - Friday: 8:00 AM - 6:00 PM (EST)<br />
-                      Saturday: 9:00 AM - 1:00 PM (EST)<br />
+                      Monday - Friday: 8:00 AM - 6:00 PM (IST)<br />
+                      Saturday: 9:00 AM - 1:00 PM (IST)<br />
                       Sunday: Closed
                     </p>
                   </div>
