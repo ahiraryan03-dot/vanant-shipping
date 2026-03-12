@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import { ReactNode } from "react";
+import { ReactNode, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
@@ -8,9 +9,16 @@ interface PageWrapperProps {
 }
 
 export default function PageWrapper({ children }: PageWrapperProps) {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   return (
     <div className="min-h-screen flex flex-col bg-background selection:bg-secondary selection:text-white">
       <Navbar />
+
       <main className="flex-1 flex flex-col">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -22,6 +30,7 @@ export default function PageWrapper({ children }: PageWrapperProps) {
           {children}
         </motion.div>
       </main>
+
       <Footer />
     </div>
   );
