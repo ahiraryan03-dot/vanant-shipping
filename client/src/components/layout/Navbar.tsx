@@ -21,10 +21,11 @@ export default function Navbar() {
         <div className="flex h-20 items-center justify-between">
           <Link href="/">
             <a className="flex items-center gap-2 group shrink-0 mr-4" data-testid="link-home">
-              <div className="bg-primary p-2 rounded-lg group-hover:bg-secondary transition-colors">
-                <Ship className="h-6 w-6 text-primary-foreground" />
-              </div>
-              <span className="text-xl font-bold tracking-tight text-primary whitespace-nowrap">Vanant Shipping</span>
+              <img
+  src="/logo.png"
+  alt="Vanant Shipping"
+  className="h-10 w-auto"
+/>
             </a>
           </Link>
 
