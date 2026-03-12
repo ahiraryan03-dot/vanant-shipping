@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { ReactNode, useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation } from "wouter";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
@@ -9,11 +9,11 @@ interface PageWrapperProps {
 }
 
 export default function PageWrapper({ children }: PageWrapperProps) {
-  const { pathname } = useLocation();
+  const [location] = useLocation();
 
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, [pathname]);
+  }, [location]);
 
   return (
     <div className="min-h-screen flex flex-col bg-background selection:bg-secondary selection:text-white">
