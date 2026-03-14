@@ -47,7 +47,7 @@ export default function About() {
               />
               
               <div className="absolute -bottom-8 -right-8 bg-white p-6 rounded-2xl shadow-xl z-20 border border-border hidden md:block">
-                <div className="text-4xl font-bold text-primary mb-1">15+</div>
+                <div className="text-4xl font-bold text-primary mb-1">12+</div>
                 <div className="text-sm font-medium text-muted-foreground uppercase tracking-wider">Years Experience</div>
               </div>
             </div>
